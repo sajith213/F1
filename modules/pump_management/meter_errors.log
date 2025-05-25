@@ -1,0 +1,69 @@
+[03-May-2025 11:14:02 Asia/Colombo] Opening: 368481.921, Closing: 368482.1435, Volume: 0.2225000000326
+[03-May-2025 11:32:23 Asia/Colombo] Opening: 17928.3654, Closing: 17928.5491, Volume: 0.18370000000141
+[03-May-2025 11:40:43 Asia/Colombo] Opening: 1110.8543, Closing: 1110.9142, Volume: 0.059899999999971
+[03-May-2025 11:58:39 Asia/Colombo] Opening: 1119.1432, Closing: 1119.3421, Volume: 0.19890000000009
+[03-May-2025 12:07:35 Asia/Colombo] Opening: 387449.3459, Closing: 387449.4578, Volume: 0.11189999995986
+[03-May-2025 12:10:20 Asia/Colombo] Opening: 547098.6214, Closing: 547098.7856, Volume: 0.1642
+[03-May-2025 12:10:20 Asia/Colombo] Successfully inserted meter reading with volume: 0.1642
+[03-May-2025 12:26:08 Asia/Colombo] Opening: 6554655.8236, Closing: 6554655.9724, Calculated Volume (float): 0.14880000054836
+[03-May-2025 12:26:08 Asia/Colombo] Formatted Volume String for DB: 0.1488
+[03-May-2025 12:58:24 Asia/Colombo] Add Reading Attempt:
+[03-May-2025 12:58:24 Asia/Colombo] Data In: Array
+(
+    [nozzle_id] => 6
+    [reading_date] => 2025-05-03
+    [opening_reading] => 3079088.9432
+    [closing_reading] => 3079089.3254
+    [recorded_by] => 1
+    [notes] => No staff assigned to this pump
+)
+
+[03-May-2025 12:58:24 Asia/Colombo] Processed - O: 3079088.9432, C: 3079089.3254, V: 0.38219999987632
+[03-May-2025 12:58:24 Asia/Colombo] Data Types - O: double, C: double, V: double
+[03-May-2025 12:58:24 Asia/Colombo] PHP Precision: 14
+[03-May-2025 12:59:11 Asia/Colombo] Add Reading Attempt:
+[03-May-2025 12:59:11 Asia/Colombo] Data In: Array
+(
+    [nozzle_id] => 7
+    [reading_date] => 2025-05-03
+    [opening_reading] => 672691.9931
+    [closing_reading] => 672693.4156
+    [recorded_by] => 1
+    [notes] => No staff assigned to this pump
+)
+
+[03-May-2025 12:59:11 Asia/Colombo] Processed - O: 672691.9931, C: 672693.4156, V: 1.422499999986
+[03-May-2025 12:59:11 Asia/Colombo] Data Types - O: double, C: double, V: double
+[03-May-2025 12:59:11 Asia/Colombo] PHP Precision: 14
+[03-May-2025 13:03:58 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to undefined function updateMeterReading() in C:\xampp\htdocs\Fuel\modules\pump_management\meter_readings.php:265
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Fuel\modules\pump_management\meter_readings.php on line 265
+[03-May-2025 13:06:20 Asia/Colombo] Update Reading Attempt:
+[03-May-2025 13:06:20 Asia/Colombo] Data In: Array
+(
+    [nozzle_id] => 9
+    [reading_date] => 2025-05-03
+    [opening_reading] => 424713.12
+    [closing_reading] => 424713.4321
+    [recorded_by] => 1
+    [notes] => No staff assigned to this pump
+    [reading_id] => 28
+)
+
+[03-May-2025 13:06:20 Asia/Colombo] Processed - O: 424713.12, C: 424713.4321, V: 0.312099999981, ID: 28
+[03-May-2025 13:06:20 Asia/Colombo] Data Types - O: double, C: double, V: double
+[03-May-2025 13:06:31 Asia/Colombo] Update Reading Attempt:
+[03-May-2025 13:06:31 Asia/Colombo] Data In: Array
+(
+    [nozzle_id] => 10
+    [reading_date] => 2025-05-03
+    [opening_reading] => 272076.99
+    [closing_reading] => 272077.4321
+    [recorded_by] => 1
+    [notes] => No staff assigned to this pump
+    [reading_id] => 29
+)
+
+[03-May-2025 13:06:31 Asia/Colombo] Processed - O: 272076.99, C: 272077.4321, V: 0.44209999998566, ID: 29
+[03-May-2025 13:06:31 Asia/Colombo] Data Types - O: double, C: double, V: double
