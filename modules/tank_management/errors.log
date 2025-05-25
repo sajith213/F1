@@ -1,0 +1,10 @@
+[27-Mar-2025 19:10:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function hasPermission() in C:\laragon\www\fuel\includes\header.php:204
+Stack trace:
+#0 C:\laragon\www\fuel\modules\tank_management\index.php(3): include()
+#1 {main}
+  thrown in C:\laragon\www\fuel\includes\header.php on line 204
+[27-Mar-2025 19:13:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function hasPermission() in C:\laragon\www\fuel\includes\header.php:204
+Stack trace:
+#0 C:\laragon\www\fuel\modules\tank_management\index.php(3): include()
+#1 {main}
+  thrown in C:\laragon\www\fuel\includes\header.php on line 204
