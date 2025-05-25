@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuel Project Structure</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 22px;
+            margin: 25px 0 15px;
+            color: #2980b9;
+        }
+        h3 {
+            font-size: 18px;
+            margin: 20px 0 10px;
+            color: #16a085;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        pre {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            overflow: auto;
+            margin-bottom: 20px;
+            font-family: 'Courier New', monospace;
+            line-height: 1.4;
+            white-space: pre-wrap;
+        }
+        .folder {
+            margin-left: 20px;
+        }
+        .folder-name {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+        .folder-name:before {
+            content: "📁";
+            margin-right: 8px;
+        }
+        .file {
+            margin-left: 45px;
+            margin-bottom: 3px;
+            color: #555;
+        }
+        .file:before {
+            content: "📄";
+            margin-right: 8px;
+        }
+        .php-file:before {
+            content: "🔌";
+            margin-right: 8px;
+        }
+        .css-file:before {
+            content: "🎨";
+            margin-right: 8px;
+        }
+        .js-file:before {
+            content: "⚙️";
+            margin-right: 8px;
+        }
+        .sql-file:before {
+            content: "💾";
+            margin-right: 8px;
+        }
+        .module-description {
+            margin-left: 45px;
+            margin-bottom: 10px;
+            color: #666;
+            font-style: italic;
+        }
+        .toggle-btn {
+            background: none;
+            border: none;
+            color: #3498db;
+            cursor: pointer;
+            text-decoration: underline;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fuel Project Structure</h1>
+        <p>This document outlines the structure of the Fuel management system hosted in the htdocs directory.</p>
+        
+        <button class="toggle-btn" id="expandAll">Expand All</button>
+        <button class="toggle-btn" id="collapseAll">Collapse All</button>
+
+        <h2>Root Directory</h2>
+        <p>The root directory contains configuration files, authentication endpoints, and the main entry points for the application.</p>
+        
+        <div class="file php-file">.user.ini</div>
+        <div class="file php-file">backup_handler.php</div>
+        <div class="file">backup_restore_debug.log</div>
+        <div class="file">custom_error_log.txt</div>
+        <div class="file php-file">dashboard.php</div>
+        <div class="file php-file">debug.php</div>
+        <div class="file php-file">error_check.php</div>
+        <div class="file">errors.log</div>
+        <div class="file">files_to_deploy.txt</div>
+        <div class="file">filestructure.bat</div>
+        <div class="file php-file">fix_credit_records.php</div>
+        <div class="file php-file">fuel_credit_sale.php</div>
+        <div class="file php-file">index.php</div>
+        <div class="file">login_debug.txt</div>
+        <div class="file php-file">login.php</div>
+        <div class="file php-file">logout.php</div>
+        <div class="file php-file">profile.php</div>
+        <div class="file">README.md</div>
+        <div class="file php-file">settings.php</div>
+        <div class="file php-file">test_connection.php</div>
+        <div class="file php-file">test_credit_sync.php</div>
+        <div class="file php-file">troubleshoot.php</div>
+        <div class="file php-file">users.php</div>
+
+        <h2>Directory Structure</h2>
+
+        <div class="folder">
+            <div class="folder-name" data-target="api-folder">API</div>
+            <div id="api-folder">
+                <div class="module-description">API endpoints for various system functionalities</div>
+                <div class="file php-file">attendance_api.php</div>
+                <div class="file php-file">cash_api.php</div>
+                <div class="file php-file">fuel_ordering_api.php</div>
+                <div class="file php-file">pos_api.php</div>
+                <div class="file php-file">price_api.php</div>
+                <div class="file php-file">pump_api.php</div>
+                <div class="file php-file">staff_api.php</div>
+                <div class="file php-file">tank_api.php</div>
+            </div>
+        </div>
+
+        <div class="folder">
+            <div class="folder-name" data-target="app-folder">App</div>
+            <div id="app-folder">
+                <div class="module-description">Mobile application build files</div>
+                <div class="file">build.gradle.kts</div>
+            </div>
+        </div>
+
+        <div class="folder">
+            <div class="folder-name" data-target="assets-folder">Assets</div>
+            <div id="assets-folder">
+                <div class="module-description">Front-end assets including CSS and JavaScript files</div>
+                
+                <div class="folder">
+                    <div class="folder-name" data-target="css-folder">CSS</div>
+                    <div id="css-folder">
+                        <div class="file css-file">dashboard.css</div>
+                        <div class="file css-file">login.css</div>
+                        <div class="file css-file">style.css</div>
+                    </div>
+                </div>
+
+                <div class="folder">
+                    <div class="folder-name" data-target="js-folder">JavaScript</div>
+                    <div id="js-folder">
+                        <div class="file js-file">charts.js</div>
+                        <div class="file js-file">fuel-ordering.js</div>
+                        <div class="file js-file">main.js</div>
+                        <div class="file js-file">validation.js</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="folder">
+            <div class="folder-name" data-target="backups-folder">Backups</div>
+            <div id="backups-folder">
+                <div class="module-description">Database backup files</div>
+                <div class="file">.htaccess</div>
+                <div class="file sql-file">backup_2025-04-17_22-31-43.sql</div>
+                <div class="file sql-file">backup_2025-04-17_22-43-02.sql</div>
+                <div class="file sql-file">backup_2025-04-17_22-49-49.sql</div>
+                <div class="file sql-file">backup_2025-04-21_22-30-52.sql</div>
+            </div>
+        </div>
+
+        <div class="folder">
+            <div class="folder-name" data-target="includes-folder">Includes</div>
+            <div id="includes-folder">
+                <div class="module-description">Core system files included across multiple pages</div>
+                <div class="file php-file">auth.php</div>
+                <div class="file php-file">config.php</div>
+                <div class="file php-file">db.php</div>
+                <div class="file php-file">footer.php</div>
+                <div class="file php-file">functions.php</div>
+                <div class="file php-file">header.php</div>
+                <div class="file php-file">sidebar.php</div>
+            </div>
+        </div>
+
+        <div class="folder">
+            <div class="folder-name" data-target="modules-folder">Modules</div>
+            <div id="modules-folder">
+                <div class="module-description">Core business functionality modules</div>
+                
+                <div class="folder">
+                    <div class="folder-name" data-target="attendance-folder">Attendance</div>
+                    <div id="attendance-folder" class="hidden">
+                        <div class="module-description">Staff attendance tracking and management</div>
+                        <div class="file php-file">batch_record.php</div>
+                        <div class="file php-file">functions.php</div>
+                        <div class="file php-file">index.php</div>
+                        <div class="file php-file">overtime_approval.php</div>
+                        <div class="file php-file">overtime_report.php</div>
+                        <div class="file php-file">record_attendance.php</div>
+                        <div class="file php-file">view_attendance.php</div>
+                    </div>
+                </div>
+
+                <div class="folder">
+                    <div class="folder-name" data-target="cash-settlement-folder">Cash Settlement</div>
+                    <div id="cash-settlement-folder" class="hidden">
+                        <div class="module-description">Daily cash reconciliation and reporting</div>
+                        <div class="file php-file">daily_settlement.php</div>
+                        <div class="file php-file">export.php</div>
+                        <div class="file php-file">functions.php</div>
+                        <div class="file php-file">get_credit_customers.php</div>
+                        <div class="file php-file">get_meter_readings.php</div>
+                        <div class="file php-file">hooks.php</div>
+                        <div class="file php-file">index.php</div>
+                        <div class="file php-file">reports.php</div>
+                        <div class="file php-file">settlement_details.php</div>
+                        <div class="file php-file">update_credit_records.php</div>
+                        <div class="file php-file">view_settlements.php</div>
+                    </div>
+                </div>
+
+                <div class="folder">
+                    <div class="folder-name" data-target="credit-management-folder">Credit Management</div>
+                    <div id="credit-management-folder" class="hidden">
+                        <div class="module-description">Customer credit account tracking and management</div>
+                        <div class="file php-file">add_credit_customer.php</div>
+                        <div class="file php-file">add_settlement.php</div>
+                        <div class="file php-file">credit_customers.php</div>
+                        <div class="file php-file">credit_sales.php</div>
+                        <div class="file php-file">edit_credit_customer.php</div>
+                        <div class="file php-file">index.php</div>
+                        <div class="file php-file">settlement_receipt.php</div>
+                        <div class="file php-file">update_balances.php</div>
+                        <div class="file php-file">view_credit_customer.php</div>
+                    </div>
+                </div>
+
+                <div class="folder">
+                    <div class="folder-name" data-target="fuel-ordering-folder">Fuel Ordering</div>
+                    <div id="fuel-ordering-folder" class="hidden">
+                        <div class="module-description">Fuel stock ordering and supplier management</div>
+                        <div class="file php-file">create_order.php</div>
+                        <div class="file php-file">functions.php</div>
+                        <div class="file php-file">index.php</div>
+                        <div class="file php-file">order_details.php</div>
+                        <div class="file php-file">process_payment.php</div>
+                        <div class="file php-file">suppliers.php</div>
+                        <div class="file php-file">update_order.php</div>
+                        <div class="file php-file">view_orders.php</div>
+                    </div>
+                </div>
+
+                <div class="folder">
+                    <div class="folder-name" data-target="pos-folder">POS (Point of Sale)</div>
+                    <div id="pos-folder">
+                        <div class="module-description">Sales terminal and product management</div>
+                        <div class="file php-file">add_product.php</div>
+                        <div class="file php-file">category_ajax.php</div>
+                        <div class="file php-file">credit_receipt.php</div>
+                        <div class="file php-file">credit_sales_functions.php</div>
+                        <div class="file">errors.log</div>
+                        <div class="file php-file">functions.php</div>
+                        <div class="file php-file">get_units.php</div>
+                        <div class="file php-file">index.php</div>
+                        <div class="file php-file">receipt.php</div>
+                        <div class="file php-file">sales.php</div>
+                        <div class="file php-file">update_product.php</div>
+                        <div class="file php-file">view_products.php</div>
+                    </div>
+                </div>
+
+                <div class="folder">
+                    <div class="folder-name" data-target="price-management-folder">Price Management</div>
+                    <div id="price-management-folder" class="hidden">
+                        <div class="module-description">Product and fuel price management</div>
+                        <div class="file php-file">add_price.php</div>
+                        <div class="file php-file">delete_price.php</div>
+                        <div class="file php-file">functions.php</div>
+                        <div class="file php-file">index.php</div>
+                        <div class="file php-file">price_analysis.php</div>
+                        <div class="file php-file">update_price.php</div>
+                        <div class="file php-file">view_prices.php</div>
+                    </div>
+                </div>
+
+                <div class="folder">
+                    <div class="folder-name" data-target="pump-management-folder">Pump Management</div>
+                    <div id="pump-management-folder" class="hidden">
+                        <div class="module-description">Fuel pump monitoring and maintenance</div>
+                        <div class="file php-file">add_pump.php</div>
+                        <div class="file php-file">delete_pump.php</div>
+                        <div class="file php-file">functions.php</div>
+                        <div class="file php-file">index.php</div>
+                        <div class="file">meter_errors.log</div>
+                        <div class="file php-file">meter_reading.php</div>
+                        <div class="file php-file">meter_readings.php</div>
+                        <div class="file php-file">pump_details.php</div>
+                        <div class="file php-file">pump_maintenance.php</div>
+                        <div class="file php-file">update_pump.php</div>
+                        <div class="file php-file">verify_meter_readings.php</div>
+                        <div class="file php-file">view_pumps.php</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="folder">
+            <div class="folder-name" data-target="reports-folder">Reports</div>
+            <div id="reports-folder" class="hidden">
+                <div class="module-description">Business reporting and analysis</div>
+                <div class="file php-file">attendance_reports.php</div>
+                <div class="file php-file">customer_credit_history.php</div>
+                <div class="file php-file">daily_sales_report.php</div>
+                <div class="file php-file">financial_reports.php</div>
+                <div class="file php-file">fuel_capacity_report.php</div>
+                <div class="file php-file">fuel_order_payment_report.php</div>
+                <div class="file php-file">fuel_reports.php</div>
+                <div class="file php-file">outstanding_balances_report.php</div>
+                <div class="file php-file">overdue_credits_report.php</div>
+                <div class="file php-file">price_impact_profit_loss_report.php</div>
+                <div class="file php-file">pump_reports.php</div>
+                <div class="file php-file">sales_loss_profit_report.php</div>
+                <div class="file php-file">sales_reports.php</div>
+                <div class="file php-file">staff_attendance_report.php</div>
+                <div class="file php-file">staff_reports.php</div>
+                <div class="file php-file">tank_reports.php</div>
+            </div>
+        </div>
+
+        <h2>System Overview</h2>
+        <p>The Fuel management system is organized into several key modules:</p>
+        <ul style="margin-left: 25px; margin-bottom: 20px;">
+            <li><strong>POS:</strong> Point of sale system for processing fuel and product sales</li>
+            <li><strong>Pump Management:</strong> Monitoring and maintenance of fuel pumps</li>
+            <li><strong>Tank Management:</strong> Fuel storage tank monitoring and management</li>
+            <li><strong>Credit Management:</strong> Customer credit account management</li>
+            <li><strong>Cash Settlement:</strong> Daily cash reconciliation and reporting</li>
+            <li><strong>Price Management:</strong> Product and fuel price management</li>
+            <li><strong>Fuel Ordering:</strong> Inventory management and supplier interaction</li>
+            <li><strong>Reports:</strong> Business analytics and reporting</li>
+            <li><strong>Staff/Attendance:</strong> Employee management and attendance tracking</li>
+        </ul>
+
+        <h2>Technical Details</h2>
+        <p>The application appears to be built using:</p>
+        <ul style="margin-left: 25px; margin-bottom: 20px;">
+            <li>PHP backend with MySQL database</li>
+            <li>HTML/CSS/JavaScript frontend</li>
+            <li>Organized in a modular structure for maintainability</li>
+            <li>Includes both web interface and API endpoints</li>
+            <li>Includes backup functionality for data protection</li>
+        </ul>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Folder toggle functionality
+            document.querySelectorAll('.folder-name').forEach(folder => {
+                folder.addEventListener('click', function() {
+                    const targetId = this.getAttribute('data-target');
+                    const targetElement = document.getElementById(targetId);
+                    
+                    if (targetElement.classList.contains('hidden')) {
+                        targetElement.classList.remove('hidden');
+                    } else {
+                        targetElement.classList.add('hidden');
+                    }
+                });
+            });
+
+            // Expand all folders
+            document.getElementById('expandAll').addEventListener('click', function() {
+                document.querySelectorAll('[id$="-folder"]').forEach(folder => {
+                    folder.classList.remove('hidden');
+                });
+            });
+
+            // Collapse all folders
+            document.getElementById('collapseAll').addEventListener('click', function() {
+                document.querySelectorAll('[id$="-folder"]').forEach(folder => {
+                    if (!folder.parentElement.classList.contains('folder')) return;
+                    folder.classList.add('hidden');
+                });
+                
+                // Keep main categories open
+                document.querySelectorAll('.folder > [id$="-folder"]').forEach(folder => {
+                    folder.classList.remove('hidden');
+                });
+            });
+
+            // Initial state - collapse child folders
+            document.querySelectorAll('.folder .folder [id$="-folder"]').forEach(folder => {
+                folder.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+2025-04-17 22:43:02 - Request received
+POST: Array
+(
+)
+
+FILES: Array
+(
+)
+
+Action: backup
+Creating backup...
+Backup created successfully: backup_2025-04-17_22-43-02.sql
+2025-04-17 22:43:15 - Request received
+POST: Array
+(
+    [action] => restore
+    [confirm_restore] => on
+)
+
+FILES: Array
+(
+    [backup_file] => Array
+        (
+            [name] => backup_2025-04-17_22-43-02.sql
+            [full_path] => backup_2025-04-17_22-43-02.sql
+            [type] => application/octet-stream
+            [tmp_name] => C:\xampp\tmp\phpC877.tmp
+            [error] => 0
+            [size] => 36525
+        )
+
+)
+
+Action: restore
+Starting restore process...
+File validated, beginning restore...
+SQL file read, size: 36525 bytes
+Found 79 SQL statements
+Executing statement #1
+Executing statement #2
+Executing statement #3
+Executing statement #4
+Executing statement #5
+Executing statement #6
+Executing statement #7
+Restore failed: Cannot delete or update a parent row: a foreign key constraint fails
+2025-04-17 22:43:34 - Request received
+POST: Array
+(
+    [action] => restore
+    [confirm_restore] => on
+)
+
+FILES: Array
+(
+    [backup_file] => Array
+        (
+            [name] => backup_2025-04-17_22-43-02.sql
+            [full_path] => backup_2025-04-17_22-43-02.sql
+            [type] => application/octet-stream
+            [tmp_name] => C:\xampp\tmp\php1291.tmp
+            [error] => 0
+            [size] => 36525
+        )
+
+)
+
+Action: restore
+Starting restore process...
+File validated, beginning restore...
+SQL file read, size: 36525 bytes
+Found 79 SQL statements
+Executing statement #1
+Executing statement #2
+Executing statement #3
+Executing statement #4
+Executing statement #5
+Executing statement #6
+Executing statement #7
+Restore failed: Cannot delete or update a parent row: a foreign key constraint fails
+2025-04-17 22:49:16 - Request received
+POST: Array
+(
+    [action] => restore
+    [confirm_restore] => on
+)
+
+FILES: Array
+(
+    [backup_file] => Array
+        (
+            [name] => backup_2025-04-17_22-43-02.sql
+            [full_path] => backup_2025-04-17_22-43-02.sql
+            [type] => application/octet-stream
+            [tmp_name] => C:\xampp\tmp\php4A15.tmp
+            [error] => 0
+            [size] => 36525
+        )
+
+)
+
+Action: restore
+Starting restore process...
+File validated, beginning restore...
+SQL file read, size: 36525 bytes
+Found 79 SQL statements
+Executing statement #1
+Executing statement #2
+Executing statement #3
+Executing statement #4
+Executing statement #5
+Executing statement #6
+Executing statement #7
+Restore failed: Cannot delete or update a parent row: a foreign key constraint fails
+2025-04-17 22:49:49 - Request received
+POST: Array
+(
+)
+
+FILES: Array
+(
+)
+
+Action: backup
+Creating backup...
+Backup created successfully: backup_2025-04-17_22-49-49.sql
+2025-04-17 22:50:00 - Request received
+POST: Array
+(
+    [action] => restore
+    [confirm_restore] => on
+)
+
+FILES: Array
+(
+    [backup_file] => Array
+        (
+            [name] => backup_2025-04-17_22-49-49.sql
+            [full_path] => backup_2025-04-17_22-49-49.sql
+            [type] => application/octet-stream
+            [tmp_name] => C:\xampp\tmp\phpF51B.tmp
+            [error] => 0
+            [size] => 36608
+        )
+
+)
+
+Action: restore
+Starting restore process...
+File validated, beginning restore...
+SQL file read, size: 36608 bytes
+Found 79 SQL statements
+Executing statement #1
+Executing statement #2
+Executing statement #3
+Executing statement #4
+Executing statement #5
+Executing statement #6
+Executing statement #7
+Restore failed: Cannot delete or update a parent row: a foreign key constraint fails
+2025-04-21 22:30:52 - Request received
+POST: Array
+(
+)
+
+FILES: Array
+(
+)
+
+Action: backup
+Creating backup...
+Backup created successfully: backup_2025-04-21_22-30-52.sql

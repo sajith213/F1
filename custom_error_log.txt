@@ -1,0 +1,112 @@
+2025-05-03 06:44:18 - Error check started
+[03-May-2025 06:44:18 Europe/Berlin] Test message to error log
+[03-May-2025 06:44:18 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 06:44:18 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 06:49:33 - Error check started
+[03-May-2025 06:49:33 Europe/Berlin] Test message to error log
+[03-May-2025 06:49:33 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 06:49:33 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:03 - Error check started
+[03-May-2025 08:03:03 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:03 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:03 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:20 - Error check started
+[03-May-2025 08:03:20 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:20 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:20 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:20 - Error check started
+[03-May-2025 08:03:20 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:20 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:20 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:21 - Error check started
+[03-May-2025 08:03:21 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:21 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:21 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:21 - Error check started
+[03-May-2025 08:03:21 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:21 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:21 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:21 - Error check started
+[03-May-2025 08:03:21 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:21 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:21 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:21 - Error check started
+[03-May-2025 08:03:21 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:21 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:21 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:21 - Error check started
+[03-May-2025 08:03:21 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:21 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:21 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:22 - Error check started
+[03-May-2025 08:03:22 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:22 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:22 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:22 - Error check started
+[03-May-2025 08:03:22 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:22 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:22 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:22 - Error check started
+[03-May-2025 08:03:22 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:22 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:22 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:22 - Error check started
+[03-May-2025 08:03:22 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:22 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:22 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:23 - Error check started
+[03-May-2025 08:03:23 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:23 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:23 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:23 - Error check started
+[03-May-2025 08:03:23 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:23 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:23 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:23 - Error check started
+[03-May-2025 08:03:23 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:23 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:23 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:23 - Error check started
+[03-May-2025 08:03:23 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:23 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:23 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:24 - Error check started
+[03-May-2025 08:03:24 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:24 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:24 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:24 - Error check started
+[03-May-2025 08:03:24 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:24 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:24 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:25 - Error check started
+[03-May-2025 08:03:25 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:25 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:25 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:25 - Error check started
+[03-May-2025 08:03:25 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:25 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:25 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:25 - Error check started
+[03-May-2025 08:03:25 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:25 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:25 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:26 - Error check started
+[03-May-2025 08:03:26 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:26 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:26 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:26 - Error check started
+[03-May-2025 08:03:26 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:26 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:26 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:27 - Error check started
+[03-May-2025 08:03:27 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:27 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:27 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:27 - Error check started
+[03-May-2025 08:03:27 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:27 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:27 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36
+2025-05-03 08:03:28 - Error check started
+[03-May-2025 08:03:28 Europe/Berlin] Test message to error log
+[03-May-2025 08:03:28 Europe/Berlin] PHP Warning:  Test user warning in C:\xampp\htdocs\Fuel\error_check.php on line 32
+[03-May-2025 08:03:28 Europe/Berlin] PHP Warning:  Undefined variable $undefined_variable in C:\xampp\htdocs\Fuel\error_check.php on line 36

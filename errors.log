@@ -1,0 +1,95 @@
+[27-Mar-2025 19:05:07 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\laragon\www\fuel\includes\header.php on line 2
+[27-Mar-2025 19:05:40 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\laragon\www\fuel\includes\header.php on line 2
+[27-Mar-2025 19:06:48 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\laragon\www\fuel\includes\header.php on line 2
+[27-Mar-2025 19:06:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'fuelmanager.activity_logs' doesn't exist in C:\laragon\www\fuel\includes\db.php:37
+Stack trace:
+#0 C:\laragon\www\fuel\includes\db.php(37): mysqli->query('INSERT INTO act...')
+#1 C:\laragon\www\fuel\includes\functions.php(152): Database->query('INSERT INTO act...')
+#2 C:\laragon\www\fuel\includes\auth.php(35): logActivity('1', 'login', 'User logged in')
+#3 C:\laragon\www\fuel\login.php(35): authenticateUser('admin', 'admin')
+#4 {main}
+  thrown in C:\laragon\www\fuel\includes\db.php on line 37
+[27-Mar-2025 19:07:55 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:07:55 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:07:55 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\laragon\www\fuel\dashboard.php:118
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\fuel\dashboard.php on line 118
+[27-Mar-2025 19:08:13 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:08:13 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:08:13 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\laragon\www\fuel\dashboard.php:118
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\fuel\dashboard.php on line 118
+[27-Mar-2025 19:08:37 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:08:37 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:08:37 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\laragon\www\fuel\dashboard.php:118
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\fuel\dashboard.php on line 118
+[27-Mar-2025 19:10:11 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:10:11 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:10:11 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\laragon\www\fuel\dashboard.php:118
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\fuel\dashboard.php on line 118
+[27-Mar-2025 19:10:15 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:10:15 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:10:15 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\laragon\www\fuel\dashboard.php:118
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\fuel\dashboard.php on line 118
+[27-Mar-2025 19:10:29 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:10:29 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:10:29 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\laragon\www\fuel\dashboard.php:118
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\fuel\dashboard.php on line 118
+[27-Mar-2025 19:11:17 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:11:17 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:11:17 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\laragon\www\fuel\dashboard.php:118
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\fuel\dashboard.php on line 118
+[27-Mar-2025 19:11:50 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:11:50 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 115
+[27-Mar-2025 19:11:50 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\laragon\www\fuel\dashboard.php:118
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\fuel\dashboard.php on line 118
+[27-Mar-2025 19:12:51 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 116
+[27-Mar-2025 19:12:51 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 116
+[27-Mar-2025 19:12:51 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\laragon\www\fuel\dashboard.php:119
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\fuel\dashboard.php on line 119
+[27-Mar-2025 19:13:10 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 116
+[27-Mar-2025 19:13:10 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\laragon\www\fuel\dashboard.php on line 116
+[27-Mar-2025 19:13:10 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\laragon\www\fuel\dashboard.php:119
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\fuel\dashboard.php on line 119
+[27-Mar-2025 19:27:31 UTC] PHP Warning:  Undefined variable $conn in C:\laragon\www\fuel\includes\header.php on line 19
+[27-Mar-2025 19:27:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\laragon\www\fuel\includes\header.php:19
+Stack trace:
+#0 C:\laragon\www\fuel\index.php(1): include()
+#1 {main}
+  thrown in C:\laragon\www\fuel\includes\header.php on line 19
+[27-Mar-2025 19:27:36 UTC] PHP Warning:  Undefined variable $conn in C:\laragon\www\fuel\includes\header.php on line 19
+[27-Mar-2025 19:27:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\laragon\www\fuel\includes\header.php:19
+Stack trace:
+#0 C:\laragon\www\fuel\index.php(1): include()
+#1 {main}
+  thrown in C:\laragon\www\fuel\includes\header.php on line 19
+[27-Mar-2025 19:28:07 UTC] PHP Warning:  Undefined variable $conn in C:\laragon\www\fuel\includes\header.php on line 19
+[27-Mar-2025 19:28:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\laragon\www\fuel\includes\header.php:19
+Stack trace:
+#0 C:\laragon\www\fuel\index.php(1): include()
+#1 {main}
+  thrown in C:\laragon\www\fuel\includes\header.php on line 19
+[27-Mar-2025 19:28:29 UTC] PHP Warning:  Undefined variable $conn in C:\laragon\www\fuel\includes\header.php on line 19
+[27-Mar-2025 19:28:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\laragon\www\fuel\includes\header.php:19
+Stack trace:
+#0 C:\laragon\www\fuel\index.php(1): include()
+#1 {main}
+  thrown in C:\laragon\www\fuel\includes\header.php on line 19
